@@ -121,7 +121,7 @@ rm -rf ./package/new/luci-theme-argon/htdocs/luci-static/argon/background/README
 #pushd package/new/luci-theme-argon
 #git checkout 3b15d06
 #popd
-git clone -b master --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git package/new/luci-app-argon-config
+# git clone -b master --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git package/new/luci-app-argon-config
 
 
 # 广告过滤 AdGuard
