@@ -160,12 +160,12 @@ popd
 
 
 # AutoCore
-svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-21.02/package/emortal/autocore package/lean/autocore
-rm -rf ./feeds/packages/utils/coremark
-svn co https://github.com/immortalwrt/packages/trunk/utils/coremark feeds/packages/utils/coremark
+# svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-21.02/package/emortal/autocore package/lean/autocore
+# rm -rf ./feeds/packages/utils/coremark
+# svn co https://github.com/immortalwrt/packages/trunk/utils/coremark feeds/packages/utils/coremark
 
 # Autocore STB
-svn co https://github.com/ophub/amlogic-s9xxx-openwrt/trunk/amlogic-s9xxx/common-files/patches/autocore package/lean/autocore
+# svn co https://github.com/ophub/amlogic-s9xxx-openwrt/trunk/amlogic-s9xxx/common-files/patches/autocore package/lean/autocore
 
 # R8152驱动
 svn co https://github.com/immortalwrt/immortalwrt/branches/master/package/kernel/r8152 package/new/r8152
@@ -180,12 +180,12 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-netdata 
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ramfree package/lean/luci-app-ramfree
 
 # Add luci-app-amlogic
-svn co https://github.com/ophub/luci-app-amlogic/trunk package/luci-app-amlogic
+# svn co https://github.com/ophub/luci-app-amlogic/trunk package/luci-app-amlogic
 # Amlogic STB
-git clone https://github.com/ophub/luci-app-amlogic.git package/new/luci-app-amlogic
+# git clone https://github.com/ophub/luci-app-amlogic.git package/new/luci-app-amlogic
 
 # Autocore Stb
-git clone https://github.com/izhamcaster/autocore-arm-x86.git package/new/luci-app-autocore
+# git clone https://github.com/izhamcaster/autocore-arm-x86.git package/new/luci-app-autocore
 
 # Add p7zip
 svn co https://github.com/hubutui/p7zip-lede/trunk package/lean/p7zip
